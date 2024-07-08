@@ -6,25 +6,25 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "Topudmh@gmail.com";
+global.email = "rehmanrajpoot644@gmail.com";
 global.location = "Njombe,Tanzania.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
-global.github = process.env.GITHUB || "https://github.com/Toputech/Topu-ai";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/13f1bb945857eb9b1eca6.jpg";
-global.devs = "255673750170";
-global.sudo = process.env.SUDO || "255673750170";
-global.owner = process.env.OWNER_NUMBER || "255673750170";
+global.github = process.env.GITHUB || "https://github.com/Bootu-786/PRINCE";
+global.gurl = process.env.GURL || "https://api.whatsapp.com/send?phone=+923145269482";
+global.website = process.env.GURL || "https://api.whatsapp.com/send?phone=+923145269482";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
+global.devs = "923145269482";
+global.sudo = process.env.SUDO || "923145269482";
+global.owner = process.env.OWNER_NUMBER || "923145269482";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
@@ -45,14 +45,14 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "$",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
-  author: process.env.PACK_AUTHER || "TOPU",
+  caption: process.env.CAPTION || "𝐹𝐼𝐿𝐸 𝒢𝐸𝒩𝐸𝑅𝒜𝒯𝐸𝒟 𝐵𝒴 𝒫𝑅𝐼𝒩𝒞𝐸",
+  author: process.env.PACK_AUTHER || "PRINCE",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "TOP-Md",
-  ownername: process.env.OWNER_NAME || "TOPU",
+  botname: process.env.BOT_NAME || "PRINCE",
+  ownername: process.env.OWNER_NAME || "PRINCE",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
