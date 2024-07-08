@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es sala
 global.github = process.env.GITHUB || "https://github.com/Bootu-786/PRINCE";
 global.gurl = process.env.GURL || "https://api.whatsapp.com/send?phone=+923145269482";
 global.website = process.env.GURL || "https://api.whatsapp.com/send?phone=+923145269482";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "null";
 global.devs = "923145269482";
 global.sudo = process.env.SUDO || "923145269482";
 global.owner = process.env.OWNER_NUMBER || "923145269482";
